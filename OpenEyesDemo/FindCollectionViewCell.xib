@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FZLTZCHJW--GB1-0.TTF">
+            <string>FZLTZCHJW--GB1-0</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FindCollectionViewCell" id="gTV-IL-0wX" customClass="FindCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="178"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="178"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="Urb-KO-4op">
+                        <rect key="frame" x="0.0" y="0.0" width="334" height="178"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#时尚" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Zz-ad-uSB">
+                        <rect key="frame" x="0.0" y="0.0" width="334" height="178"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34596631205673761" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="FZLTZCHJW--GB1-0" family="FZLanTingHeiS-DB1-GB" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aeQ-sl-hlx" customClass="ZYBannerView">
+                        <rect key="frame" x="0.0" y="0.0" width="334" height="178"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="7Zz-ad-uSB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="155-cX-EJe"/>
+                <constraint firstAttribute="bottom" secondItem="aeQ-sl-hlx" secondAttribute="bottom" id="6AE-WJ-kwy"/>
+                <constraint firstItem="Urb-KO-4op" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="BGZ-N2-Fk1"/>
+                <constraint firstAttribute="bottom" secondItem="7Zz-ad-uSB" secondAttribute="bottom" id="DZU-3L-uYz"/>
+                <constraint firstAttribute="bottom" secondItem="Urb-KO-4op" secondAttribute="bottom" id="DbT-8E-b4H"/>
+                <constraint firstAttribute="trailing" secondItem="aeQ-sl-hlx" secondAttribute="trailing" id="LW7-EC-bsg"/>
+                <constraint firstItem="aeQ-sl-hlx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="LyD-P8-43K"/>
+                <constraint firstItem="7Zz-ad-uSB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Nct-Nl-Mn6"/>
+                <constraint firstAttribute="trailing" secondItem="Urb-KO-4op" secondAttribute="trailing" id="ZUX-q4-1B4"/>
+                <constraint firstAttribute="trailing" secondItem="7Zz-ad-uSB" secondAttribute="trailing" id="qLw-VU-Rsx"/>
+                <constraint firstItem="aeQ-sl-hlx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="upZ-Wp-grE"/>
+                <constraint firstItem="Urb-KO-4op" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xJ4-h3-IMU"/>
+            </constraints>
+            <size key="customSize" width="334" height="178"/>
+            <connections>
+                <outlet property="bannerView" destination="aeQ-sl-hlx" id="76r-HU-I4V"/>
+                <outlet property="imageView" destination="Urb-KO-4op" id="pKO-BG-nXu"/>
+                <outlet property="titlelabel" destination="7Zz-ad-uSB" id="imx-0O-KkH"/>
+            </connections>
+            <point key="canvasLocation" x="-208" y="29"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="5" width="722" height="1186"/>
+    </resources>
+</document>

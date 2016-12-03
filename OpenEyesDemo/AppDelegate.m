@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NetworkRequestManage.h"
+#import "HyLaunchView.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +16,11 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [NetworkRequestManage sharedManager];
+    [application setStatusBarHidden:NO withAnimation:UIStatusBarAnimationSlide];
+    [NSThread sleepForTimeInterval:1];
     return YES;
 }
 

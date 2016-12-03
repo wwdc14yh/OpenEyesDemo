@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lobster 1.4.otf">
+            <string>Lobster1.4</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HyContentView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home_header" translatesAutoresizingMaskIntoConstraints="NO" id="X0i-Gs-VIZ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="badge_selected_header" translatesAutoresizingMaskIntoConstraints="NO" id="pCC-xn-fPl">
+                    <rect key="frame" x="119" y="38" width="136" height="124"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="124" id="QTR-YT-jkr"/>
+                        <constraint firstAttribute="width" constant="136" id="S4y-CT-NRg"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RkM-kA-Esw">
+                    <rect key="frame" x="0.0" y="169" width="375" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Friday, Nov.25 -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3HG-Cd-hrg">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                            <fontDescription key="fontDescription" name="Lobster1.4" family="Lobster 1.4" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <activityIndicatorView hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="GZS-E9-Qeo">
+                            <rect key="frame" x="177" y="10" width="20" height="20"/>
+                            <color key="color" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="3HG-Cd-hrg" firstAttribute="leading" secondItem="RkM-kA-Esw" secondAttribute="leading" id="5Du-kX-HP3"/>
+                        <constraint firstAttribute="height" constant="50" id="Nf6-hh-I1s"/>
+                        <constraint firstItem="3HG-Cd-hrg" firstAttribute="top" secondItem="RkM-kA-Esw" secondAttribute="top" id="OVH-XF-sI7"/>
+                        <constraint firstAttribute="trailing" secondItem="3HG-Cd-hrg" secondAttribute="trailing" id="i4k-08-jL6"/>
+                        <constraint firstItem="GZS-E9-Qeo" firstAttribute="centerX" secondItem="RkM-kA-Esw" secondAttribute="centerX" id="iDg-SM-4Cp"/>
+                        <constraint firstAttribute="bottom" secondItem="3HG-Cd-hrg" secondAttribute="bottom" constant="10" id="wVm-R2-r0g"/>
+                        <constraint firstItem="GZS-E9-Qeo" firstAttribute="centerY" secondItem="RkM-kA-Esw" secondAttribute="centerY" constant="-5" id="z0q-Nm-d00"/>
+                    </constraints>
+                </view>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QmU-LC-e6c">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="X0i-Gs-VIZ" secondAttribute="trailing" id="437-FI-gqD"/>
+                <constraint firstItem="X0i-Gs-VIZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5y7-3X-NOV"/>
+                <constraint firstItem="pCC-xn-fPl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="EHJ-nh-el5"/>
+                <constraint firstAttribute="trailing" secondItem="X0i-Gs-VIZ" secondAttribute="trailing" id="GDA-NZ-IVJ"/>
+                <constraint firstItem="X0i-Gs-VIZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KWj-9c-Ayz"/>
+                <constraint firstItem="RkM-kA-Esw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MZo-wL-oeN"/>
+                <constraint firstAttribute="trailing" secondItem="RkM-kA-Esw" secondAttribute="trailing" id="MbW-kg-Gox"/>
+                <constraint firstItem="QmU-LC-e6c" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="P1E-ds-BPR"/>
+                <constraint firstAttribute="bottom" secondItem="X0i-Gs-VIZ" secondAttribute="bottom" id="TPU-ii-oN1"/>
+                <constraint firstAttribute="bottom" secondItem="RkM-kA-Esw" secondAttribute="bottom" id="bwB-xK-20b"/>
+                <constraint firstItem="QmU-LC-e6c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fmT-B9-0uj"/>
+                <constraint firstItem="X0i-Gs-VIZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mX3-HF-LNr"/>
+                <constraint firstItem="pCC-xn-fPl" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-9.5" id="tWN-YU-EAM"/>
+                <constraint firstAttribute="trailing" secondItem="QmU-LC-e6c" secondAttribute="trailing" id="tpH-2b-we5"/>
+                <constraint firstAttribute="bottom" secondItem="X0i-Gs-VIZ" secondAttribute="bottom" id="uQW-6G-5uo"/>
+                <constraint firstAttribute="bottom" secondItem="QmU-LC-e6c" secondAttribute="bottom" id="w1O-Cs-nBr"/>
+                <constraint firstItem="X0i-Gs-VIZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wp6-e2-WFp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="activityIndicatorView" destination="GZS-E9-Qeo" id="cix-0W-EhV"/>
+                <outlet property="maskView" destination="QmU-LC-e6c" id="kVH-ZN-4pC"/>
+                <outlet property="titleLabel" destination="3HG-Cd-hrg" id="l87-IS-dZW"/>
+            </connections>
+            <point key="canvasLocation" x="-745.5" y="-71.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Home_header" width="1242" height="720"/>
+        <image name="badge_selected_header" width="136" height="124"/>
+    </resources>
+</document>

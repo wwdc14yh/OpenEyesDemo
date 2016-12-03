@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FZLTXIHJW--GB1-0.TTF">
+            <string>FZLTXIHJW--GB1-0</string>
+        </array>
+        <array key="FZLTZCHJW--GB1-0.TTF">
+            <string>FZLTZCHJW--GB1-0</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HyTableViewFooterViewCollectionViewCell" id="XD8-Zz-mgP" customClass="HyTableViewFooterViewCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="260" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addd" translatesAutoresizingMaskIntoConstraints="NO" id="EuA-9R-YBa">
+                        <rect key="frame" x="0.0" y="0.0" width="260" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="XiU-DZ-okC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="老虎闯进家" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BC-1p-e5m">
+                        <rect key="frame" x="8" y="155" width="212" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="FZLTZCHJW--GB1-0" family="FZLanTingHeiS-DB1-GB" pointSize="14"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#广告 / 01' 00&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ttm-hE-7zI">
+                        <rect key="frame" x="8" y="177" width="212" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="FZLTXIHJW--GB1-0" family="FZLanTingHeiS-L-GB" pointSize="12"/>
+                        <color key="textColor" red="0.52549019610000003" green="0.52549019610000003" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzr-g3-dxQ">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="Fq7-SK-gg7"/>
+                            <constraint firstAttribute="height" constant="150" id="Ken-LO-NpY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="FZLTXIHJW--GB1-0" family="FZLanTingHeiS-L-GB" pointSize="13"/>
+                        <state key="normal" title=" 查 看 全 部">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="pzr-g3-dxQ" firstAttribute="top" secondItem="XD8-Zz-mgP" secondAttribute="top" id="O2h-iI-fPZ"/>
+                <constraint firstItem="EuA-9R-YBa" firstAttribute="leading" secondItem="XD8-Zz-mgP" secondAttribute="leading" id="bHy-Lh-RJv"/>
+                <constraint firstItem="EuA-9R-YBa" firstAttribute="top" secondItem="XD8-Zz-mgP" secondAttribute="top" id="duQ-kj-hPT"/>
+                <constraint firstItem="pzr-g3-dxQ" firstAttribute="leading" secondItem="XD8-Zz-mgP" secondAttribute="leading" id="sdz-yr-62n"/>
+                <constraint firstAttribute="trailing" secondItem="EuA-9R-YBa" secondAttribute="trailing" id="zwT-qx-WJN"/>
+            </constraints>
+            <size key="customSize" width="264" height="203"/>
+            <connections>
+                <outlet property="imageView" destination="EuA-9R-YBa" id="BI1-4M-Emq"/>
+                <outlet property="moreButton" destination="pzr-g3-dxQ" id="DtV-af-AzX"/>
+                <outlet property="subLabel" destination="Ttm-hE-7zI" id="ipX-Mg-TI3"/>
+                <outlet property="titleLabel" destination="6BC-1p-e5m" id="Bb0-HS-dCK"/>
+            </connections>
+            <point key="canvasLocation" x="-93" y="1"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="addd" width="1242" height="720"/>
+    </resources>
+</document>
