@@ -413,7 +413,7 @@
 				E161A90E1DE8AE7900B992F0 /* lib */,
 				E11231F71DE81DA00030FF70 /* Tools */,
 				E13664C31DF140A700F3DFBC /* Root */,
-				E11231FB1DE8262A0030FF70 /* Hoem */,
+				E11231FB1DE8262A0030FF70 /* HoemController */,
 				E13664CB1DF157AF00F3DFBC /* FindViewController */,
 				E11DBCF01DF1840F00E1B3BE /* FindDetailsViewController */,
 				E1222ACA1DE9FE4F00DCECE6 /* Video details */,
@@ -448,14 +448,14 @@
 			name = Tools;
 			sourceTree = "<group>";
 		};
-		E11231FB1DE8262A0030FF70 /* Hoem */ = {
+		E11231FB1DE8262A0030FF70 /* HoemController */ = {
 			isa = PBXGroup;
 			children = (
 				E161A8DB1DE89FE700B992F0 /* model */,
 				E11231FF1DE826620030FF70 /* Views */,
 				E161AA2B1DE8B2F900B992F0 /* Controller */,
 			);
-			name = Hoem;
+			name = HoemController;
 			sourceTree = "<group>";
 		};
 		E11231FF1DE826620030FF70 /* Views */ = {

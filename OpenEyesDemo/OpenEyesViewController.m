@@ -18,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    if (iPhone6_6s || iPhone6_6sPlus) {
+        NSLog(@"%.2f",[UIScreen mainScreen].scale);
+        [UIView setFontScale:[UIScreen mainScreen].scale / 3];
+    }else{
+        [UIView setFontScale:[UIScreen mainScreen].scale / 2];
+    }
     TabBarView *bar = [[TabBarView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, self.tabBar.height)];
     [self.tabBar addSubview:bar];
     bar.viewControllers = self.viewControllers;

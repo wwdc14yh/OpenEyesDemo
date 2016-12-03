@@ -32,12 +32,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if (iPhone6_6s || iPhone6_6sPlus) {
-        NSLog(@"%.2f",[UIScreen mainScreen].scale);
-        [UIView setFontScale:[UIScreen mainScreen].scale / 3];
-    }else{
-        [UIView setFontScale:[UIScreen mainScreen].scale / 2];
-    }
     CGSize newSize = [HyHelper getDefaultSize];
     CGFloat rowH = newSize.height;
     _tableView.tableHeaderView = [HyTableViewHeaderView loadTableViewHeaderViewWithSize:CGSizeMake(CGRectGetWidth(self.view.frame), rowH)];
