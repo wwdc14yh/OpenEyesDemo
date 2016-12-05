@@ -47,14 +47,6 @@
 		E12024841DEB81E200BF6534 /* ZCThrownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E12024761DEB81E200BF6534 /* ZCThrownLabel.m */; };
 		E12024851DEB81E200BF6534 /* ZCTransparencyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E12024781DEB81E200BF6534 /* ZCTransparencyLabel.m */; };
 		E12024881DEB84EA00BF6534 /* HytextGraduallyShowAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E12024871DEB84EA00BF6534 /* HytextGraduallyShowAnimation.m */; };
-		E1222AB81DE9F8E600DCECE6 /* UIView+AnimationPracticalMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AA81DE9F8E600DCECE6 /* UIView+AnimationPracticalMethod.m */; };
-		E1222AB91DE9F8E600DCECE6 /* UIView+AnimationProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AAA1DE9F8E600DCECE6 /* UIView+AnimationProperty.m */; };
-		E1222ABA1DE9F8E600DCECE6 /* UIView+ConvenientMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AAC1DE9F8E600DCECE6 /* UIView+ConvenientMethod.m */; };
-		E1222ABB1DE9F8E600DCECE6 /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AAE1DE9F8E600DCECE6 /* UIView+GlowView.m */; };
-		E1222ABC1DE9F8E600DCECE6 /* UIView+ScreensShot.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AB01DE9F8E600DCECE6 /* UIView+ScreensShot.m */; };
-		E1222ABD1DE9F8E600DCECE6 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AB21DE9F8E600DCECE6 /* UIView+SetRect.m */; };
-		E1222ABE1DE9F8E600DCECE6 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AB41DE9F8E600DCECE6 /* UIView+Shake.m */; };
-		E1222ABF1DE9F8E600DCECE6 /* UIView+UserInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AB61DE9F8E600DCECE6 /* UIView+UserInteraction.m */; };
 		E1222AC71DE9F98600DCECE6 /* NSAttributedString+LabelWidthAndHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AC21DE9F98600DCECE6 /* NSAttributedString+LabelWidthAndHeight.m */; };
 		E1222AC81DE9F98600DCECE6 /* NSString+LabelWidthAndHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AC41DE9F98600DCECE6 /* NSString+LabelWidthAndHeight.m */; };
 		E1222AC91DE9F98600DCECE6 /* NSString+Range.m in Sources */ = {isa = PBXBuildFile; fileRef = E1222AC61DE9F98600DCECE6 /* NSString+Range.m */; };
@@ -112,6 +104,14 @@
 		E161AA381DE8C60E00B992F0 /* HyTableViewFooterViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E161AA371DE8C60E00B992F0 /* HyTableViewFooterViewCollectionViewCell.m */; };
 		E161AA3A1DE8C92800B992F0 /* HyTableViewFooterViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E161AA391DE8C92800B992F0 /* HyTableViewFooterViewCollectionViewCell.xib */; };
 		E161AA3E1DE8D0AD00B992F0 /* HyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E161AA3D1DE8D0AD00B992F0 /* HyHelper.m */; };
+		E188B57C1DF55FC7006B8E4A /* UIView+AnimationPracticalMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B56D1DF55FC7006B8E4A /* UIView+AnimationPracticalMethod.m */; };
+		E188B57D1DF55FC7006B8E4A /* UIView+AnimationProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B56F1DF55FC7006B8E4A /* UIView+AnimationProperty.m */; };
+		E188B57E1DF55FC7006B8E4A /* UIView+ConvenientMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B5711DF55FC7006B8E4A /* UIView+ConvenientMethod.m */; };
+		E188B57F1DF55FC7006B8E4A /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B5731DF55FC7006B8E4A /* UIView+GlowView.m */; };
+		E188B5801DF55FC7006B8E4A /* UIView+ScreensShot.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B5751DF55FC7006B8E4A /* UIView+ScreensShot.m */; };
+		E188B5811DF55FC7006B8E4A /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B5771DF55FC7006B8E4A /* UIView+SetRect.m */; };
+		E188B5821DF55FC7006B8E4A /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B5791DF55FC7006B8E4A /* UIView+Shake.m */; };
+		E188B5831DF55FC7006B8E4A /* UIView+UserInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B57B1DF55FC7006B8E4A /* UIView+UserInteraction.m */; };
 		E19890401DED80C400587AA4 /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = E198903F1DED80C400587AA4 /* GLProgram.m */; };
 		E19890431DED829800587AA4 /* PlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19890421DED829800587AA4 /* PlayVideoViewController.m */; };
 		E1C34CF11DE9413D00DC6E50 /* HyTableViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C34CF01DE9413D00DC6E50 /* HyTableViewFooterView.m */; };
@@ -204,22 +204,6 @@
 		E12024781DEB81E200BF6534 /* ZCTransparencyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTransparencyLabel.m; sourceTree = "<group>"; };
 		E12024861DEB84EA00BF6534 /* HytextGraduallyShowAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HytextGraduallyShowAnimation.h; sourceTree = "<group>"; };
 		E12024871DEB84EA00BF6534 /* HytextGraduallyShowAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HytextGraduallyShowAnimation.m; sourceTree = "<group>"; };
-		E1222AA71DE9F8E600DCECE6 /* UIView+AnimationPracticalMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationPracticalMethod.h"; sourceTree = "<group>"; };
-		E1222AA81DE9F8E600DCECE6 /* UIView+AnimationPracticalMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationPracticalMethod.m"; sourceTree = "<group>"; };
-		E1222AA91DE9F8E600DCECE6 /* UIView+AnimationProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationProperty.h"; sourceTree = "<group>"; };
-		E1222AAA1DE9F8E600DCECE6 /* UIView+AnimationProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationProperty.m"; sourceTree = "<group>"; };
-		E1222AAB1DE9F8E600DCECE6 /* UIView+ConvenientMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ConvenientMethod.h"; sourceTree = "<group>"; };
-		E1222AAC1DE9F8E600DCECE6 /* UIView+ConvenientMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ConvenientMethod.m"; sourceTree = "<group>"; };
-		E1222AAD1DE9F8E600DCECE6 /* UIView+GlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GlowView.h"; sourceTree = "<group>"; };
-		E1222AAE1DE9F8E600DCECE6 /* UIView+GlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GlowView.m"; sourceTree = "<group>"; };
-		E1222AAF1DE9F8E600DCECE6 /* UIView+ScreensShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScreensShot.h"; sourceTree = "<group>"; };
-		E1222AB01DE9F8E600DCECE6 /* UIView+ScreensShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScreensShot.m"; sourceTree = "<group>"; };
-		E1222AB11DE9F8E600DCECE6 /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
-		E1222AB21DE9F8E600DCECE6 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
-		E1222AB31DE9F8E600DCECE6 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
-		E1222AB41DE9F8E600DCECE6 /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
-		E1222AB51DE9F8E600DCECE6 /* UIView+UserInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UserInteraction.h"; sourceTree = "<group>"; };
-		E1222AB61DE9F8E600DCECE6 /* UIView+UserInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UserInteraction.m"; sourceTree = "<group>"; };
 		E1222AC11DE9F98600DCECE6 /* NSAttributedString+LabelWidthAndHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LabelWidthAndHeight.h"; sourceTree = "<group>"; };
 		E1222AC21DE9F98600DCECE6 /* NSAttributedString+LabelWidthAndHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LabelWidthAndHeight.m"; sourceTree = "<group>"; };
 		E1222AC31DE9F98600DCECE6 /* NSString+LabelWidthAndHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LabelWidthAndHeight.h"; sourceTree = "<group>"; };
@@ -316,6 +300,22 @@
 		E161AA391DE8C92800B992F0 /* HyTableViewFooterViewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HyTableViewFooterViewCollectionViewCell.xib; sourceTree = "<group>"; };
 		E161AA3C1DE8D0AD00B992F0 /* HyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyHelper.h; sourceTree = "<group>"; };
 		E161AA3D1DE8D0AD00B992F0 /* HyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyHelper.m; sourceTree = "<group>"; };
+		E188B56C1DF55FC7006B8E4A /* UIView+AnimationPracticalMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationPracticalMethod.h"; sourceTree = "<group>"; };
+		E188B56D1DF55FC7006B8E4A /* UIView+AnimationPracticalMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationPracticalMethod.m"; sourceTree = "<group>"; };
+		E188B56E1DF55FC7006B8E4A /* UIView+AnimationProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationProperty.h"; sourceTree = "<group>"; };
+		E188B56F1DF55FC7006B8E4A /* UIView+AnimationProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationProperty.m"; sourceTree = "<group>"; };
+		E188B5701DF55FC7006B8E4A /* UIView+ConvenientMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ConvenientMethod.h"; sourceTree = "<group>"; };
+		E188B5711DF55FC7006B8E4A /* UIView+ConvenientMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ConvenientMethod.m"; sourceTree = "<group>"; };
+		E188B5721DF55FC7006B8E4A /* UIView+GlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GlowView.h"; sourceTree = "<group>"; };
+		E188B5731DF55FC7006B8E4A /* UIView+GlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GlowView.m"; sourceTree = "<group>"; };
+		E188B5741DF55FC7006B8E4A /* UIView+ScreensShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScreensShot.h"; sourceTree = "<group>"; };
+		E188B5751DF55FC7006B8E4A /* UIView+ScreensShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScreensShot.m"; sourceTree = "<group>"; };
+		E188B5761DF55FC7006B8E4A /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		E188B5771DF55FC7006B8E4A /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		E188B5781DF55FC7006B8E4A /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
+		E188B5791DF55FC7006B8E4A /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
+		E188B57A1DF55FC7006B8E4A /* UIView+UserInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UserInteraction.h"; sourceTree = "<group>"; };
+		E188B57B1DF55FC7006B8E4A /* UIView+UserInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UserInteraction.m"; sourceTree = "<group>"; };
 		E198903E1DED80C400587AA4 /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
 		E198903F1DED80C400587AA4 /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
 		E19890411DED829800587AA4 /* PlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVideoViewController.h; sourceTree = "<group>"; };
@@ -581,35 +581,26 @@
 		E1222AA61DE9F8C900DCECE6 /* UI-Component */ = {
 			isa = PBXGroup;
 			children = (
+				E188B56C1DF55FC7006B8E4A /* UIView+AnimationPracticalMethod.h */,
+				E188B56D1DF55FC7006B8E4A /* UIView+AnimationPracticalMethod.m */,
+				E188B56E1DF55FC7006B8E4A /* UIView+AnimationProperty.h */,
+				E188B56F1DF55FC7006B8E4A /* UIView+AnimationProperty.m */,
+				E188B5701DF55FC7006B8E4A /* UIView+ConvenientMethod.h */,
+				E188B5711DF55FC7006B8E4A /* UIView+ConvenientMethod.m */,
+				E188B5721DF55FC7006B8E4A /* UIView+GlowView.h */,
+				E188B5731DF55FC7006B8E4A /* UIView+GlowView.m */,
+				E188B5741DF55FC7006B8E4A /* UIView+ScreensShot.h */,
+				E188B5751DF55FC7006B8E4A /* UIView+ScreensShot.m */,
+				E188B5761DF55FC7006B8E4A /* UIView+SetRect.h */,
+				E188B5771DF55FC7006B8E4A /* UIView+SetRect.m */,
+				E188B5781DF55FC7006B8E4A /* UIView+Shake.h */,
+				E188B5791DF55FC7006B8E4A /* UIView+Shake.m */,
+				E188B57A1DF55FC7006B8E4A /* UIView+UserInteraction.h */,
+				E188B57B1DF55FC7006B8E4A /* UIView+UserInteraction.m */,
 				E115BCA71DF2D5D2005F8F49 /* UIView+FontSize.h */,
 				E115BCA81DF2D5D2005F8F49 /* UIView+FontSize.m */,
-				E1222AB71DE9F8E600DCECE6 /* UIView+Category */,
 			);
 			name = "UI-Component";
-			sourceTree = "<group>";
-		};
-		E1222AB71DE9F8E600DCECE6 /* UIView+Category */ = {
-			isa = PBXGroup;
-			children = (
-				E1222AA71DE9F8E600DCECE6 /* UIView+AnimationPracticalMethod.h */,
-				E1222AA81DE9F8E600DCECE6 /* UIView+AnimationPracticalMethod.m */,
-				E1222AA91DE9F8E600DCECE6 /* UIView+AnimationProperty.h */,
-				E1222AAA1DE9F8E600DCECE6 /* UIView+AnimationProperty.m */,
-				E1222AAB1DE9F8E600DCECE6 /* UIView+ConvenientMethod.h */,
-				E1222AAC1DE9F8E600DCECE6 /* UIView+ConvenientMethod.m */,
-				E1222AAD1DE9F8E600DCECE6 /* UIView+GlowView.h */,
-				E1222AAE1DE9F8E600DCECE6 /* UIView+GlowView.m */,
-				E1222AAF1DE9F8E600DCECE6 /* UIView+ScreensShot.h */,
-				E1222AB01DE9F8E600DCECE6 /* UIView+ScreensShot.m */,
-				E1222AB11DE9F8E600DCECE6 /* UIView+SetRect.h */,
-				E1222AB21DE9F8E600DCECE6 /* UIView+SetRect.m */,
-				E1222AB31DE9F8E600DCECE6 /* UIView+Shake.h */,
-				E1222AB41DE9F8E600DCECE6 /* UIView+Shake.m */,
-				E1222AB51DE9F8E600DCECE6 /* UIView+UserInteraction.h */,
-				E1222AB61DE9F8E600DCECE6 /* UIView+UserInteraction.m */,
-			);
-			name = "UIView+Category";
-			path = ../../ScrollImageViewControllerDemo/ScrollImageViewControllerDemo;
 			sourceTree = "<group>";
 		};
 		E1222AC01DE9F97200DCECE6 /* NSString+Category */ = {
@@ -1114,11 +1105,10 @@
 				E120247D1DEB81E200BF6534 /* ZCEasingUtil.m in Sources */,
 				E11DBD1C1DF19F9000E1B3BE /* FindDetailsTableHeaderView.m in Sources */,
 				E19890401DED80C400587AA4 /* GLProgram.m in Sources */,
+				E188B5831DF55FC7006B8E4A /* UIView+UserInteraction.m in Sources */,
 				E10DBF7A1DF201BE001DD2E9 /* Data.m in Sources */,
 				E11DBCF31DF184C600E1B3BE /* FindDetailsViewController.m in Sources */,
 				E136650E1DF1729400F3DFBC /* Cover.m in Sources */,
-				E1222ABB1DE9F8E600DCECE6 /* UIView+GlowView.m in Sources */,
-				E1222ABA1DE9F8E600DCECE6 /* UIView+ConvenientMethod.m in Sources */,
 				E13664E81DF1656C00F3DFBC /* ZYBannerCell.m in Sources */,
 				E12024851DEB81E200BF6534 /* ZCTransparencyLabel.m in Sources */,
 				E136650C1DF1729400F3DFBC /* BaseClass.m in Sources */,
@@ -1131,7 +1121,9 @@
 				E11231E51DE817330030FF70 /* AppDelegate.m in Sources */,
 				E19890431DED829800587AA4 /* PlayVideoViewController.m in Sources */,
 				E13665131DF1729400F3DFBC /* ItemList.m in Sources */,
+				E188B57C1DF55FC7006B8E4A /* UIView+AnimationPracticalMethod.m in Sources */,
 				E1E861281DF08B130003DA71 /* BottomPageView.m in Sources */,
+				E188B57F1DF55FC7006B8E4A /* UIView+GlowView.m in Sources */,
 				E11231FE1DE826430030FF70 /* HomeViewController.m in Sources */,
 				E13665171DF1729400F3DFBC /* SectionList.m in Sources */,
 				E13664D71DF1588700F3DFBC /* FindViewController.m in Sources */,
@@ -1140,6 +1132,7 @@
 				E138AF391DEDF6890014C7D6 /* UIImage+ImageEffects.m in Sources */,
 				E13664E91DF1656C00F3DFBC /* ZYBannerFooter.m in Sources */,
 				E12024841DEB81E200BF6534 /* ZCThrownLabel.m in Sources */,
+				E188B57E1DF55FC7006B8E4A /* UIView+ConvenientMethod.m in Sources */,
 				E13664CA1DF1492000F3DFBC /* TabBarView.m in Sources */,
 				E13664C61DF140DC00F3DFBC /* OpenEyesViewController.m in Sources */,
 				E136650D1DF1729400F3DFBC /* Consumption.m in Sources */,
@@ -1155,7 +1148,6 @@
 				E15C85E21DEC3847009AE6A9 /* AuthorVideoSetViewController.m in Sources */,
 				E13186591DE880A600448F41 /* HomeTableViewCell.m in Sources */,
 				E13665141DF1729400F3DFBC /* Label.m in Sources */,
-				E1222ABE1DE9F8E600DCECE6 /* UIView+Shake.m in Sources */,
 				E120247E1DEB81E200BF6534 /* ZCFallLabel.m in Sources */,
 				E11232021DE826870030FF70 /* HyTableViewHeaderView.m in Sources */,
 				E13665151DF1729400F3DFBC /* PlayInfo.m in Sources */,
@@ -1163,23 +1155,23 @@
 				E13665181DF1729400F3DFBC /* Tags.m in Sources */,
 				E1F6BA2B1DEED74800E2CA08 /* HySlideView.m in Sources */,
 				E11DBD361DF1C7C700E1B3BE /* FindDetailsCollectionViewFlowLayout.m in Sources */,
-				E1222ABC1DE9F8E600DCECE6 /* UIView+ScreensShot.m in Sources */,
-				E1222ABF1DE9F8E600DCECE6 /* UIView+UserInteraction.m in Sources */,
 				E1222AC71DE9F98600DCECE6 /* NSAttributedString+LabelWidthAndHeight.m in Sources */,
-				E1222AB91DE9F8E600DCECE6 /* UIView+AnimationProperty.m in Sources */,
 				E138AF3C1DEDFF200014C7D6 /* HyPlayVideoLayer.m in Sources */,
+				E188B5801DF55FC7006B8E4A /* UIView+ScreensShot.m in Sources */,
 				E12024281DEB3BB400BF6534 /* FXBlurView.m in Sources */,
 				E1F6BA1C1DEEC32200E2CA08 /* PlayVideoToolsView.m in Sources */,
 				E1D119B31DE9DBE500AA5B46 /* HyInteractiveTransition.m in Sources */,
-				E1222ABD1DE9F8E600DCECE6 /* UIView+SetRect.m in Sources */,
 				E12024801DEB81E200BF6534 /* ZCFocusLabel.m in Sources */,
 				E120247C1DEB81E200BF6534 /* ZCDuangLabel.m in Sources */,
 				E1222ACD1DE9FE9200DCECE6 /* VideoDetailsViewController.m in Sources */,
 				E13664DB1DF15D9F00F3DFBC /* FindCollectionViewCell.m in Sources */,
 				E13664DF1DF15E0300F3DFBC /* NSString+FindCellSize.m in Sources */,
+				E188B5811DF55FC7006B8E4A /* UIView+SetRect.m in Sources */,
 				E12024821DEB81E200BF6534 /* ZCShapeshiftLabel.m in Sources */,
 				E11231E21DE817330030FF70 /* main.m in Sources */,
 				E161AA381DE8C60E00B992F0 /* HyTableViewFooterViewCollectionViewCell.m in Sources */,
+				E188B5821DF55FC7006B8E4A /* UIView+Shake.m in Sources */,
+				E188B57D1DF55FC7006B8E4A /* UIView+AnimationProperty.m in Sources */,
 				E120247F1DEB81E200BF6534 /* ZCFlyinLabel.m in Sources */,
 				E13665191DF1729400F3DFBC /* WebUrl.m in Sources */,
 				E161AA331DE8B6CB00B992F0 /* HyTableViewCellFooterView.m in Sources */,
@@ -1187,7 +1179,6 @@
 				E120247A1DEB81E200BF6534 /* ZCCoreTextLayout.m in Sources */,
 				E12024241DEB338700BF6534 /* VideoDetailsView.m in Sources */,
 				E1222AC91DE9F98600DCECE6 /* NSString+Range.m in Sources */,
-				E1222AB81DE9F8E600DCECE6 /* UIView+AnimationPracticalMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
