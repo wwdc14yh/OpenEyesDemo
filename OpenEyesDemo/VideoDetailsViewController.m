@@ -210,6 +210,7 @@ static BOOL isRun = false;
         VideoDetailsView *detailsView = [[VideoDetailsView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(show.frame), width, (self.view.height - show.height))];
         detailsView.delegate = self;
         detailsView.scrollView = _scrollView;
+        detailsView.picturesArray = _picturesArray;
         [_videoDetailsObjs addObject:detailsView];
             [show.imageView setImageWithURL:[NSURL URLWithString:listData.data.cover.feed] options:YYWebImageOptionProgressiveBlur | YYWebImageOptionShowNetworkActivity];
         detailsView.tag = (viewTag + i)+200;

@@ -27,6 +27,7 @@ typedef enum : NSUInteger {
 @property (nullable ,nonatomic ,weak)  id<VideoDetailsViewDelegate> delegate;
 @property (nullable,nonatomic,weak) UIScrollView *scrollView;
 @property (nonatomic, assign, readonly) BOOL isShow;
+@property (nonnull, nonatomic , copy) NSArray *picturesArray;
 
 - (void)startAnimation;
 - (void)stopAnimation;

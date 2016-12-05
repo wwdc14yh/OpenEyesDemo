@@ -207,7 +207,7 @@
                     if (isr) {
                         [_scrollView setContentOffset:CGPointMake(MAX((index-1), 0) * _scrollView.width, 0) animated:true];
                     }else{
-                        [_scrollView setContentOffset:CGPointMake(MIN((index+1), 5) * _scrollView.width, 0) animated:true];
+                        [_scrollView setContentOffset:CGPointMake(MIN((index+1), _picturesArray.count-1) * _scrollView.width, 0) animated:true];
                     }
                 }
             }else{
