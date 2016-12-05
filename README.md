@@ -15,22 +15,22 @@
 ###预览：
 * `载入模仿   `    
 
-![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/开眼-载入MOV.gif)
+![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/Resources/开眼-载入MOV.gif)
 * `下拉刷新模仿`    
 
-![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/开眼-下拉刷新.gif)
+![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/Resources/开眼-下拉刷新.gif)
 * `转场动画模仿`    
 
-![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/开眼-转场动画.gif)
+![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/Resources/开眼-转场动画.gif)
 * `转场动画模仿`    
 
-![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/视频详情-更多.gif)
+![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/Resources/视频详情-更多.gif)
 * `发现界面   `    
 
-![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/开眼-发现.gif)
+![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/Resources/开眼-发现.gif)
 * `发现更多   `       
 
-![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/开眼-发现详情.gif)
+![image](https://github.com/wwdc14/OpenEyesDemo/blob/master/Resources/开眼-发现详情.gif)
 
 ###说明：
 * demo依赖的一些三方库：
