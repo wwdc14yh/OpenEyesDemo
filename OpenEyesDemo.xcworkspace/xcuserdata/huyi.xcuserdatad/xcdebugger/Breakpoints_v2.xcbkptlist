@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OpenEyesDemo/PlayVideoViewController.m"
-            timestampString = "502466487.29721"
+            timestampString = "510674440.317281"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "443"
-            endingLineNumber = "443"
+            startingLineNumber = "444"
+            endingLineNumber = "444"
             landmarkName = "-dealloc"
             landmarkType = "7">
          </BreakpointContent>

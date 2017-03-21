@@ -58,7 +58,6 @@
                 [self videoPlayDismissAnimation:transitionContext];
             }
             break;
-        
     }
 }
 

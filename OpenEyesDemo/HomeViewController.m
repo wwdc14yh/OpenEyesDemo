@@ -281,7 +281,9 @@
     [vc setValue:indexPath forKey:@"indexPath"];
     [vc setValue:tableView forKey:@"tableView"];
     [vc setValue:self forKey:@"delegate"];
-    [self presentViewController:vc animated:true completion:nil];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self presentViewController:vc animated:YES completion:nil];
+    });
 }
 
 

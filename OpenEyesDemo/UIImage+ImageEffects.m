@@ -96,6 +96,7 @@
 #import "UIImage+ImageEffects.h"
 #import <float.h>
 #import <Accelerate/Accelerate.h>
+#import "FXBlurView.h"
 
 @implementation UIImage (ImageEffects)
 
@@ -117,7 +118,10 @@
 - (UIImage *)applyExtraLightEffect
 {
     //UIColor *tintColor = [UIColor colorWithWhite:0.97 alpha:0.82];
-    return [self applyBlurWithRadius:30 tintColor:nil saturationDeltaFactor:1.8 maskImage:nil];
+    //return [self blurredImageWithRadius:40 iterations:10 tintColor:[UIColor clearColor]];
+    UIImage *blurImage = [self blurredImageWithRadius:40 iterations:5.0 tintColor:nil];
+    //return [self applyBlurWithRadius:40 tintColor:nil saturationDeltaFactor:1.8 maskImage:nil];
+    return  blurImage;
 }
 
 

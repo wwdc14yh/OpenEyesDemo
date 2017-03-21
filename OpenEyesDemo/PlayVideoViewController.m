@@ -52,6 +52,7 @@
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed{
     //这里我们初始化dismissType
     _transitionManage.type = HyPresentOneTransitionTypeDismiss;
+    [[UIDevice currentDevice] setValue:@(UIDeviceOrientationPortrait) forKey:@"orientation"];
     return _transitionManage;
 }
 

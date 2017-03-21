@@ -81,7 +81,7 @@
         style.lineSpacing = 0;
         NSMutableAttributedString *mutableString = [[[NSAttributedString alloc] initWithString:titleText.text attributes:@{NSFontAttributeName : titleText.font, NSParagraphStyleAttributeName : style, NSForegroundColorAttributeName : titleText.textColor}] mutableCopy];
         titleText.attributedString = mutableString;
-        titleText.animationDuration = 0.10f;
+        titleText.animationDuration = 0.15f;
         titleText.animationDelay = 0.01f;
         [mutableStringArray addObject:mutableString];
     }
@@ -99,7 +99,7 @@
         style.lineSpacing = 0;
         NSMutableAttributedString *mutableString = [[[NSAttributedString alloc] initWithString:subText.text attributes:@{NSFontAttributeName : subText.font, NSParagraphStyleAttributeName : style, NSForegroundColorAttributeName : subText.textColor}] mutableCopy];
         subText.attributedString = mutableString;
-        subText.animationDuration = 0.10f;
+        subText.animationDuration = 0.15f;
         subText.animationDelay = 0.01f;
         [mutableStringArray addObject:mutableString];
     }
@@ -136,7 +136,7 @@
         
         NSMutableAttributedString *mutableString = [[[NSAttributedString alloc] initWithString:detailsText.text attributes:@{NSFontAttributeName : detailsText.font, NSParagraphStyleAttributeName : style, NSForegroundColorAttributeName : detailsText.textColor}] mutableCopy];
         detailsText.attributedString = mutableString;
-        detailsText.animationDuration = 0.10f;
+        detailsText.animationDuration = 0.15f;
         detailsText.animationDelay = 0.01f;
         [mutableStringArray addObject:mutableString];
     }
@@ -302,7 +302,7 @@
 {
     _isShow = appear;
     HytextGraduallyShowAnimation *titleText =  [HyHelper newObjectsClass:[HytextGraduallyShowAnimation class] AtaddView:self WithTag:tag];
-    titleText.animationDuration = 0.10f;
+    titleText.animationDuration = 0.15f;
     titleText.animationDelay = 0.01f;
     if (appear) {
         titleText.text = mutableAttributedString.string;

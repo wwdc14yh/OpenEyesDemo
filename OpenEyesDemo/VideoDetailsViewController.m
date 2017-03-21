@@ -29,6 +29,7 @@ static int viewTag = 0x11;
 @property (nonatomic, strong) NSMutableArray       *videoDetailsObjs;
 @property (nonatomic, strong) dispatch_queue_t mainQueue;
 @property (nonatomic, strong) BottomPageView *bottomView;
+@property (nonatomic, assign) CGRect endRect;
 @end
 
 @implementation VideoDetailsViewController
@@ -41,10 +42,8 @@ static int viewTag = 0x11;
         self.modalPresentationStyle = UIModalPresentationCustom;
         _transitionManage = [[HyInteractiveTransition alloc] init];
         _transitionManage.transitionStyleType = HyTransitionStyleTypeVideoDetails;
-        //设置屏幕的转向为竖屏
-        [[UIDevice currentDevice] setValue:@(UIDeviceOrientationPortrait) forKey:@"orientation"];
-        //刷新
-        [UIViewController attemptRotationToDeviceOrientation];
+
+        _endRect = CGRectZero;
     }
     return self;
 }
@@ -86,7 +85,7 @@ static NSMutableArray *blurImages = nil;
 static BOOL isRun = false;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setup];
+    
     _mainQueue = dispatch_get_main_queue();
     dispatch_queue_t globalQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     dispatch_async(globalQueue, ^{
@@ -110,9 +109,11 @@ static BOOL isRun = false;
                 hyImage.index = idx;
                 [blurImages addObject:hyImage];
             }else{
-                UIImageView *show = nil;
-                [show setImageWithURL:[NSURL URLWithString:listData.data.cover.feed] options:YYWebImageOptionProgressiveBlur | YYWebImageOptionShowNetworkActivity];
+                __block UIImageView *show = [UIImageView new];
+                //[show setImageWithURL:[NSURL URLWithString:listData.data.cover.feed] options:YYWebImageOptionProgressiveBlur | YYWebImageOptionShowNetworkActivity];
+                
                 [show setImageWithURL:[NSURL URLWithString:listData.data.cover.feed] placeholder:nil options:YYWebImageOptionProgressiveBlur | YYWebImageOptionShowNetworkActivity completion:^(UIImage * _Nullable image, NSURL * _Nonnull url, YYWebImageFromType from, YYWebImageStage stage, NSError * _Nullable error) {
+                    show = nil;
                     blur =  [image applyExtraLightEffect];//[image blurredImageWithRadius:100 iterations:2.0f tintColor:[UIColor clearColor]];
                     NSData *data = UIImageJPEGRepresentation(blur, 1);
                     HyImages *hyImage = [[HyImages alloc] initWithData:data];
@@ -131,13 +132,14 @@ static BOOL isRun = false;
             [self com];
         }
     });
+    [self setup];
 }
 
 - (void)com
 {
     isRun = true;
     dispatch_async(_mainQueue, ^{
-        NSLog(@"根据更新UI界面");
+        NSLog(@"更新UI界面");
         for (HyImages *image in blurImages) {
             VideoDetailsView *detailsView = [_videoDetailsObjs objectAtIndex:image.index];
             detailsView.imageView.image = image;
@@ -200,13 +202,13 @@ static BOOL isRun = false;
     _scrollView.bounces                        = YES;
     _scrollView.contentSize                    = CGSizeMake(self.picturesArray.count * width, height);
     
+    NSLog(@"开始");
     for (ItemList *listData in self.picturesArray) {
         NSInteger i = [self.picturesArray indexOfObject:listData];
         
         MoreInfoView *show   = [[MoreInfoView alloc] initWithFrame:CGRectMake(i * width, 0, width, (height/2) + 40)];
         show.isBlur = false;
         show.delegate = self;
-        //__block MoreInfoView *blurImage = [[MoreInfoView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(show.frame), width, height - show.height)];
         VideoDetailsView *detailsView = [[VideoDetailsView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(show.frame), width, (self.view.height - show.height))];
         detailsView.delegate = self;
         detailsView.scrollView = _scrollView;
@@ -238,6 +240,7 @@ static BOOL isRun = false;
         [value makeTheSetupEffective];
         [self.computingValuesArray addObject:value];
     }
+    NSLog(@"结束");
     
     id objs = [_list.itemList objectAtIndex:_indexPath.row];
     NSInteger idx = [_picturesArray indexOfObject:objs];
